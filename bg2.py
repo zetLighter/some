@@ -13,5 +13,5 @@ while True:
         elif value > 1:
             result = (value-2)**2+a
         print(result)
-    except ValueError:
+    except :
         print("Неправильный ввод")
